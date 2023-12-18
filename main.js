@@ -14,7 +14,7 @@ $('#card-number').on('keypress change blur', function () {
   });
   
   
-  /* Exp. Date Slash */
+
   
   $('#card-exp').on('input',function(){
       var curLength = $(this).val().length;
