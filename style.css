@@ -1,5 +1,4 @@
-/* author: https://codepen.io/ronkeee/pen/KKgJmmz
-ron */
+/* Suyunov Husan */
 body{
     display: block;
     position: center;
@@ -9,22 +8,7 @@ body{
     height: 100vh;
     overflow: hidden;
   }
-  
-  
-  
-  /* .box {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  
-  }  */
-  
-  
-  
-  /* Background circles start */
+
   .circle {
     position: absolute;
     border-radius: 50%;
@@ -73,13 +57,13 @@ body{
     animation-delay: 2s;
     animation-direction: alternate;
   }
-  /* Background circles end */
+
   
   
   
   
   
-  /* ANIMATIONS */
+  /* Animatsiya uchun  */
   @keyframes explode {
    0% { opacity: 1; }
    100% { transform: scale(1.2); opacity: 0; }
