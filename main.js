@@ -1,5 +1,5 @@
 
-/* Card Number Spacing */
+// Suyunov Husan
 
 $('#card-number').on('keypress change blur', function () {
     $(this).val(function (index, value) {
@@ -27,12 +27,12 @@ $('#card-number').on('keypress change blur', function () {
   
   });
   
-  // var characterCount
-  // $('#card-exp').on('input',function(e){
-  //     if($(this).val().length == 2 && characterCount < $(this).val().length) {
-  //         $(this).val($(this).val()+'/');
-  //     }
-  //     characterCount = $(this).val().length
-  // });
+  var characterCount
+  $('#card-exp').on('input',function(e){
+      if($(this).val().length == 2 && characterCount < $(this).val().length) {
+          $(this).val($(this).val()+'/');
+      }
+      characterCount = $(this).val().length
+  });
   
   
